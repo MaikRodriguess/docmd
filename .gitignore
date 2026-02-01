@@ -1,1 +1,29 @@
+# Arquivos de ambiente (NUNCA commitar!)
 .env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# Docker
+*.log
+
+# Uploads (arquivos temporários)
+uploads/
+!uploads/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
